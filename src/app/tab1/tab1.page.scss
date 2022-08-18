@@ -1,0 +1,118 @@
+.imgrelo{
+    h1{
+        color: white;
+        position: absolute;
+        font-size: 6vw;
+        margin-top: 1vw;
+        margin-left: 5vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    img{
+        border-bottom-left-radius: 10vw;
+        border-bottom-right-radius: 10vw;
+        position: absolute;
+        width: 100vw;
+        height: 100vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 0px 0px 40px 40px;
+
+    }
+
+
+    .temp{
+        background: #6045E2;
+        width: 60vw;
+        height: 38vw;
+        position: absolute;
+        border-top-right-radius: 10vw;
+        border-bottom-right-radius: 10vw;
+        margin-top: 10vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        h1{
+            font-size: 17vw;
+            color: white;
+            margin-left: 13vw;
+            margin-top: 2vw;
+            position: absolute;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        h2{
+            color: white;
+            position: absolute;
+            font-size: 8vw;
+            margin-top: 22vw;
+            margin-left: 8vw;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+
+
+    .maxmin{
+        background: #6045E2;
+        width: 30vw;
+        height: 38vw;
+        position: absolute;
+        margin-top: 40vw;
+        border-bottom-left-radius: 10vw;
+        border-top-left-radius: 10vw;
+        margin-left: 70vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        .min{
+           margin-top: 4vw;
+           margin-left: -1vw;
+           h1{
+            font-size: 7vw;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+           }
+        }
+        .max{
+           margin-top: 24vw;
+           margin-left: -3vw;
+           h1{
+            font-size: 7vw;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+           }
+        }
+        .dia{
+           transform: rotate(-90deg);
+           font-size: 11vw;
+           margin-left: 8vw;
+           margin-top: -3vw;
+           h1{
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            font-size: 7vw;
+           }
+        }
+    }
+}
+
+
+.time{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  width: 80w;
+  border: 1px solid;
+}
+
+.title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.linha{
+  width: 80w;
+  border: 1px solid;
+  background-color: rgb(79, 125, 224);
+}
+
+
+.tempos23{
+  position: absolute;
+  margin-top: 110vw;
+  margin-left: 0vw;
+  height: 300vw;
+  width: 100vw;
+
+}

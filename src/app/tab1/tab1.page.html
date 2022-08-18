@@ -1,17 +1,99 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="imgrelo">
+    <img src="../../assets/night-camping-vector.webp" alt="">
+    <h1>Lençóis Paulista</h1>
+    <div class="temp">
+      <h1>9°C</h1>
+      <h2>Nublado <ion-icon name="cloudy-night-outline"></ion-icon></h2>
+    </div>
+    <div class="maxmin">
+      <div class="min">
+        <h1>9C <ion-icon name="arrow-down-outline"></ion-icon></h1>
+      </div>
+      <div class="max">
+        <h1>15C<ion-icon name="arrow-up-outline"></ion-icon></h1>
+      </div>
+      <div class="dia">
+        <h1>Terça</h1>
+      </div>
+    </div>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<div class="tempos23">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="title">
+</ion-card-title>
+
+    </ion-card-header>
+
+    <ion-grid>
+      <ion-row class="time">
+        <ion-col>
+          <div class="linha">Dia</div>
+        </ion-col>
+        <ion-col>
+          <div class="linha">Min /Max</div>
+        </ion-col>
+        <ion-col>
+          <div class="linha">Previsão<ion-icon name="cloud-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+
+
+      <ion-row class="time">
+        <ion-col>
+          <div>04/08/2022</div>
+        </ion-col>
+        <ion-col>
+          <div>32° /19°</div>
+        </ion-col>
+        <ion-col>
+          <div>Sol <ion-icon name="cloud-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+
+<ion-row class="time">
+        <ion-col>
+          <div>05/08/2022</div>
+        </ion-col>
+        <ion-col>
+          <div>20° /12°</div>
+        </ion-col>
+        <ion-col>
+          <div>Chuva <ion-icon name="rainy-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="time">
+        <ion-col>
+          <div>06/08/2022</div>
+        </ion-col>
+        <ion-col>
+          <div>24° /19°</div>
+        </ion-col>
+        <ion-col>
+          <div>Frente Fria <ion-icon name="cloud-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="time">
+        <ion-col>
+          <div>07/08/2022</div>
+        </ion-col>
+        <ion-col>
+          <div>35° /25°</div>
+        </ion-col>
+        <ion-col>
+          <div>Ensolarado <ion-icon name="cloud-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+    </ion-card>
+
+</div>
+
+
 </ion-content>
